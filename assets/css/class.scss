@@ -813,7 +813,7 @@ $classTopHeight: 60px;
   }
   .rong-user-operate-icon[disabled] {
     opacity: 0.3;
-    // pointer-events: none;
+    pointer-events: none;
   }
   .rong-user-operate-micro {
     background-position: 0 -54px;
@@ -850,7 +850,7 @@ $classTopHeight: 60px;
   right: 20px;
   top: -$classTopHeight;
   height: $classTopHeight;
-  z-index: 40;
+  z-index: 20;
   // height: 100%;
 }
 
@@ -1088,16 +1088,22 @@ $classTopHeight: 60px;
     }
     pointer-events: auto;
   }
+  // .rong-display-share-enable {
+  //   i {
+  //     background-position: 1px -232px;
+  //   }
+  //   pointer-events: auto;
+  // }
+  // .rong-display-share-enable:hover {
+  //   i {
+  //     background-position: -82px -232px;
+  //   }
+  //   pointer-events: auto;
+  // }
 
   .rong-display-screenshare[disabled] {
     opacity: 0.4;
-    cursor: none;
-    i {
-      background-position: -26px -232px;
-    }
-    span {
-      color: #3D4041;
-    }
+    pointer-events: none;
   }
 }
 

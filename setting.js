@@ -1,12 +1,11 @@
 (function (win) {
   var setting = {
-    version: '1.0.1',
     lang: 'zh',
-    server: 'https://api-xxxx/api', // SealMeeting Server 地址
+    server: 'https://localhost:9110', // SealMeeting Server 地址
     im: {
-      appKey: 'xxeekbzig32',
-      // navi: 'https://navqa.cn.ronghub.com', // navi 地址, 私有云可不填
-      // api: '',
+      appKey: 'pkfcgjjwopip8',
+      navi: 'http://localhost/naviapi', // navi 地址, 私有云可不填
+      api: 'http://localhost/ryapi',
       // protobuf: '',
       reconnectUrl: 'cdn.ronghub.com/RongIMLib-2.2.6.min.js' // 重连地址
     },
@@ -34,20 +33,22 @@
       maxPersonCount: 16
     },
     mobileLink: {
-      tpl: 'sealmeeting://rongcloud/seal/link?site_url={url}?mId={mId}&p={p}&encode={encode}&locale={locale}', // 移动端一键开启地址
-      installUrl: 'itms-services://?action=xxxx&url=https://cdn.xxxx.com/app_sealmeeting.plist' // 移动端安装地址
+      tpl: 'sealmeeting://rongcloud/seal/link?site_url={url}?mId={mId}&p={p}&encode={encode}&locale={locale}',
+      installUrl: 'itms-services://?action=download-manifest&url=https://cdn.ronghub.com/app_sealmeeting.plist'
     },
     webLink: {
-      tpl: '{url}?mId={mId}&p={p}&encode={encode}&locale={locale}' // web 一键会议地址
+      tpl: '{url}?mId={mId}&p={p}&encode={encode}&locale={locale}'
     },
     isDebug: true
   };
 
-  win.RongClass = win.RongClass || {
+  win.RongMeeting = win.RongMeeting || {
     locale: {},
     components: {},
     dialog: {},
     setting: setting
   };
-  
+
 })(window);
+
+

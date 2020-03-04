@@ -75,7 +75,7 @@ $loginBaseBackColor: rgb(247, 193, 79);
       border: 1px solid #F44436;
     }
     .rong-login-input:focus {
-      border: 1px solid rgb(243, 168, 29);
+      border: 1px solid rgb(5, 139, 129);
     }
     .rong-login-input::-webkit-input-placeholder {
       color: rgb(220, 225, 224);
@@ -99,7 +99,7 @@ $loginBaseBackColor: rgb(247, 193, 79);
     }
     input[type="checkbox"]:checked + label::after {
       content: '';
-      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAPFJREFUOBFj/LqEz/P/v7+z/v9nkGEgATAyMjxhZGJOY/iyiPvx10V8XiToBSv9upjPG6SX4fNC7v+kaoapB+llgnFIof//b4DrgzOINeDLMm69r4t6zv/fLMUF0kOSASDNDH8YdjAxMzYw+j77RpIBcM1MTNlcMZ/Xw1wMd8HXhbw+35cLKMAkkGlcmkFq4AYwMP2X/vv79z50Q/BpRjGAO/bLTEZGxk5kQwhpRjEAxEE25OsiXl9wgKH5GaQOGbAgc0BskCFfF/Mw/P//bw0TE1MEcoChqwXzByQlIruECZSrQBkDWZAYNkgPOEdSmp0Bon96qnZyq5QAAAAASUVORK5CYII=');
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFESURBVDhPY2TtblzOwMCgAcTkgBsgA87/Z2BYAORchIgRDYwZGRhiWKCci39K6w9A2UQBlu5GEBXDBOZRAEgygLmzXp6hq4EZygUD4gxoqWZi6WqIY2RiOgv0sztUFAwIG9DQwMjMxurKwMjYyvD//zYGBsbjUBkwIGgAMxeDOyMj4xKg5mP////N+lNW/x4qBQYoBjB11fIDnbqLpaveHsRn6WywAmpexvCf4fK////T/5Y3fwErRAIoBvz7+f8rMG6ZGRmZ1gENymZkYlwFFD7679/fsH/ljR8gqlABqhdqW/78+f3bH5iw7gBtngikb////z/3X0XTG6gKDIARBv+rW7/8//HLFaix9t//f5F/yxoeQKWwAqyB+Le29dOfsob2f2WNL6BCOAFWA0gBsMy0BMg+CxEiGmgDAzyFwuzMcAcAxz5tQAK2WfQAAAAASUVORK5CYII=');
       background-repeat: no-repeat;
       position: absolute;
       width: calc(100% + 2px);
@@ -139,7 +139,7 @@ $loginBaseBackColor: rgb(247, 193, 79);
       height: 100%;
       border: none;
       // background-color: $rongGreen;
-      background: linear-gradient(to right,rgb(228, 211, 23), rgb(228, 109, 24));
+      background: linear-gradient(to right,rgb(0, 179, 159), rgb(5, 139, 129));
       color: white;
       font-size: 90%;
     }

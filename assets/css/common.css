@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* 
+/*
 此 scss 为设置项, 不直接引入页面
  */
 @font-face {
@@ -108,11 +108,11 @@ html .rong-rtc-user-role, body .rong-rtc-user-role {
 }
 
 html .rong-role-oval-1, body .rong-role-oval-1 {
-  background-color: #f4ac37;
+  background-color: #058B81;
 }
 
 html .rong-role-oval-2, body .rong-role-oval-2 {
-  background-color: #fb6316;
+  background-color: #058B81;
 }
 
 html .rong-role-oval-3, body .rong-role-oval-3 {
@@ -224,7 +224,7 @@ html .rong-role-oval-4, body .rong-role-oval-4 {
   font-size: 12px;
   border-radius: 5px;
   margin-left: 10px;
-  background: linear-gradient(to right, #e4d317, #e46d18);
+  background: linear-gradient(to right, #00B39F, #058B81);
   border: none;
 }
 
@@ -352,7 +352,7 @@ html .rong-role-oval-4, body .rong-role-oval-4 {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #F3A10B;
+  background: #058B81;
   animation: lds-grid 1.2s linear infinite;
 }
 
@@ -434,7 +434,7 @@ html .rong-role-oval-4, body .rong-role-oval-4 {
   padding: 13px 20px 7px 20px;
   text-align: center;
   display: inline-block;
-  border: 1px solid #f8ba80;
+  border: 1px solid #058B81;
   cursor: pointer;
 }
 
@@ -454,7 +454,7 @@ html .rong-role-oval-4, body .rong-role-oval-4 {
 
 .rong-dialog-create-db ul li:hover {
   border-radius: 3px;
-  border: 1px solid #F3A10B;
+  border: 1px solid #058B81;
 }
 
 .rong-dialog-shadow-black {
@@ -485,7 +485,7 @@ html .rong-role-oval-4, body .rong-role-oval-4 {
   background-color: white;
   border: none;
   font-size: 17px;
-  color: #F3A10B;
+  color: #058B81;
 }
 
 .rong-dialog-loading-box {
@@ -502,7 +502,7 @@ html .rong-role-oval-4, body .rong-role-oval-4 {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #F3A10B;
+  background: #058B81;
   animation: lds-grid 1.2s linear infinite;
 }
 

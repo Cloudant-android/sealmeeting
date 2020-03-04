@@ -36,7 +36,7 @@
   function toLoginPage() {
     // var instance = RongMeeting.instance;
     // instance.$router.push({ name: 'login', params: { force: true } });
-    win.location.href = './';
+    win.location.href = '../scxt';
   }
 
   function hungup(isJump) {

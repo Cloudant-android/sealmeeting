@@ -15,7 +15,7 @@
   var StorageKey = RongMeeting.ENUM.StorageKey,
     SpecialErrorCode = RongMeeting.ENUM.SpecialErrorCode,
     RoleENUM = RongMeeting.ENUM.Role;
-  
+
   var resolutionSetting = RongMeeting.setting.rtc.resolution;
 
   function toClassPage(data) {
@@ -27,6 +27,8 @@
       query: {
         mId: data.roomId,
         p: 'password',
+        username: data.username,
+        userId: data.userId,
         encode: 1,
         locale: 'zh-cn'
       }
@@ -58,6 +60,7 @@
     context.isLoading = true;
     dataModel.server.init(context.$data).then(function (data) {
       context.isLoading = false;
+      context.$data.userName =
       setRoomStorage(context.$data);
       loadDialog && loadDialog.destroy();
       toClassPage(data);
@@ -162,7 +165,7 @@
         var meetingInfo = utils.formatUrl();
         if (meetingInfo.mId) {
           context.roomId = meetingInfo.mId;
-          context.userName = randomlyGeneratedName = utils.generateName(RoleENUM.STUDENT);
+          context.userName = decodeURIComponent(meetingInfo.username);
           context.isAudience = false;
           context.isVideoClosed = false;
           context.$nextTick(function () {
@@ -174,7 +177,7 @@
     };
     common.component(options, resolve);
   };
-  
+
 })(window.RongMeeting, {
   Vue: window.Vue,
   win: window

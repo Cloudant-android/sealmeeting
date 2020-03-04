@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* 
+/*
 此 scss 为设置项, 不直接引入页面
  */
 @font-face {
@@ -119,9 +119,9 @@
 
 .rong-class-info .rong-class-logo {
   display: inline-block;
-  width: 220px;
+  width: 310px;
   height: 45px;
-  background-image: url(../img/icons.svg);
+  background-image: url(../img/login-bar.png);
   position: absolute;
   top: 50%;
   left: 0;
@@ -223,8 +223,8 @@
 }
 
 .rong-class-tab-box .rong-class-tab-selected span {
-  color: #F3A10B;
-  border-bottom: 2px solid #F3A10B;
+  color: #058B81;
+  border-bottom: 2px solid #058B81;
 }
 
 .rong-members-content {
@@ -271,7 +271,7 @@
 }
 
 .rong-dialog-degrade .rong-confirm-btns .rong-confirm-ok {
-  background: linear-gradient(to right, #FFCC00, #e46d18);
+  background: linear-gradient(to right, #00B39F, #058B81);
   color: white;
   border: 1px solid transparent;
 }
@@ -460,7 +460,7 @@
 }
 
 .rong-dialog-degrade .rong-degrade-user i.rong-degrade-selected {
-  background: linear-gradient(to right, #FFCC00, #e46d18);
+  background: linear-gradient(to right, #00B39F, #058B81);
   background-image: url("../img/icons.svg");
   border: none;
   background-position: 0px -373px;
@@ -484,7 +484,7 @@
 }
 
 .rong-user-avatar-assistant {
-  background: linear-gradient(to bottom, #fbc235, #f66e4f);
+  background: linear-gradient(to bottom, #00B39F, #058B81);
 }
 
 .rong-user-avatar-student {
@@ -492,11 +492,11 @@
 }
 
 .rong-user-avatar-manager {
-  background: linear-gradient(to bottom, #fbc235, #f66e4f);
+  background: linear-gradient(to bottom, #00B39F, #058B81);
 }
 
 .rong-user-avatar-teacher {
-  background: linear-gradient(to bottom, #f99972, #ec5c58);
+  background: linear-gradient(to bottom, #00B39F, #058B81);
 }
 
 .rong-user-avatar-member {
@@ -552,11 +552,11 @@
 }
 
 .rong-online-userlist .rong-online-role-manager {
-  background-color: #f6b039;
+  background-color: #058B81;
 }
 
 .rong-online-userlist .rong-online-role-teacher {
-  background-color: #ff6619;
+  background-color: #00B39F;
 }
 
 .rong-online-userlist .rong-rtc-user-role {
@@ -623,7 +623,7 @@
   width: 55px;
   height: 26px;
   border-radius: 5px;
-  background: linear-gradient(to right, #FFCC00, #e46d18);
+  background: linear-gradient(to right,#00B39F, #058B81);
   position: absolute;
   bottom: 10px;
   right: 5px;
@@ -1018,9 +1018,9 @@
   width: 72px;
   height: 26px;
   vertical-align: middle;
-  border: 2px solid #F3A10B;
+  border: 2px solid #058B81;
   background-color: white;
-  color: #F3A10B;
+  color: #058B81;
   font-size: 14px;
   position: absolute;
   top: 50%;
@@ -1109,7 +1109,7 @@
   height: 36px;
   border-radius: 50%;
   position: relative;
-  box-shadow: linear-gradient(to right, #FFCC00, #e46d18) 0px 0px 22px -6px;
+  box-shadow: linear-gradient(to right, #00B39F, #058B81) 0px 0px 22px -6px;
   background-color: white;
 }
 
@@ -1142,7 +1142,7 @@
 }
 
 .rong-display-opt .rong-display-share:hover span, .rong-display-opt .rong-display-screenshare:hover span, .rong-display-opt .rong-display-wb:hover span {
-  color: #F3A10B;
+  color: #058B81;
 }
 
 .rong-display-opt .rong-display-screenshare:hover i {

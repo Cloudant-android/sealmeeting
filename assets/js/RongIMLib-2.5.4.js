@@ -13397,13 +13397,7 @@ var RongIMLib;
                 index += flag.length;
                 path = path.substring(index);
             }
-            if (sub) {
-                index = path.indexOf('/');
-                var hasPath = (index > -1);
-                if (hasPath) {
-                    path = path.substr(0, index);
-                }
-            }
+
             return RongUtil.stringFormat(tmpl, [protocol, path]);
         };
         ;
